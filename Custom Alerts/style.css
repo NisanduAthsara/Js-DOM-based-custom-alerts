@@ -1,0 +1,49 @@
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial, sans-serif;	
+	margin-bottom: 70px;
+}
+
+.alert,
+.sample-msg,
+.info-msg,
+.success {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #de163b;
+	font-size:20px;
+	color:white;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.close-btn{
+	float: right;
+	margin: 20px;
+	cursor: pointer;
+	font-weight:bold;
+	margin-left: 30px;
+}
+
+.alert-p{
+	padding:20px;
+	font-family: Arial, sans-serif;	
+}
+
+.close-btn:hover{
+	color:black;
+}
+
+.sample-msg{
+	background-color: #f0910c;
+}
+
+.success{
+	background-color: #1cba35;
+}
+
+.info-msg{
+	background-color: #0f8bd9;
+}
